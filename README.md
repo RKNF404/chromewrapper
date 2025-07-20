@@ -1,7 +1,5 @@
 # chromewrapper
 
-     Copyright (c) 2025 Rootkit404
-
 Wrapper to persist flags for Chrome in Windows
 
 Some utilities are based on source from [Henry++'s chrlauncher](https://github.com/henrypp/chrlauncher), these tools are MIT licensed
