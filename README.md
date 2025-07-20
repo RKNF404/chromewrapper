@@ -1,6 +1,6 @@
 # chromewrapper
 
-Copyright (c) 2025 Rootkit404
+     Copyright (c) 2025 Rootkit404
 
 -----------------------------
 
