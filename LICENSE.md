@@ -1,4 +1,6 @@
-#    COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.1
+#     COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.1
+
+      Copyright (c) 2025 Rootkit404
  
 ##    1. Definitions.
  
