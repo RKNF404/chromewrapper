@@ -45,9 +45,11 @@ if not exist "%CHROMEWRAPPER_PATH%" (
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".shtml" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".svg" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".png" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
-		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".jpeg" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".jpg" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
+		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".jpeg" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".webp" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
+		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".webm" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
+		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".mp4" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".xht" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 		reg add "HKLM\Software\Clients\StartMenuInternet\%CHROMEWRAPPER_NAME%\Capabilities\FileAssociations" /v ".xhtml" /t REG_SZ /d "%CHROMEWRAPPER_NAME%HTML" /f
 
