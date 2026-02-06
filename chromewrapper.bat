@@ -1,7 +1,11 @@
-set "CHROMEWRAPPER_FLAGS="
+@echo off
 
-set "CHROMEWRAPPER_FEATURES_ENABLE=--enable-features="
+setlocal EnableDelayedExpansion
+set "CHROMEWRAPPER_FLAGS=--start-maximized --no-default-browser-check"
 
-set "CHROMEWRAPPER_FEATURES_DISABLE=--disable-features="
+for /f "usebackq delims=" %%L in ("C:\Program Files\Google\Chrome\Application\hardening-guide-flags.conf") do (
+  set "CHROMEWRAPPER_FLAGS=!CHROMEWRAPPER_FLAGS! %%L"
+)
 
-start "Chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe" --start-maximized --no-default-browser-check %CHROMEWRAPPER_FLAGS% %CHROMEWRAPPER_FEATURES_ENABLE% %CHROMEWRAPPER_FEATURES_DISABLE% %*
+start "Chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe" %CHROMEWRAPPER_FLAGS% %*
+endlocal
